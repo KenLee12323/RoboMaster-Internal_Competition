@@ -1,4 +1,5 @@
 1. CV_Optional_Task: Folder for the CV optional task.
+                     
                      The algorithm find the balls' trajectory by getting the frame residue.
                      The frame residue is filtered by sobel filter and then ordinary Hough transform. 
                      This method is very good when the camera is steady, given the assumption
@@ -13,7 +14,9 @@
                      However, the computation requirement is high when there is no GPU.
                      
 2. Laptop_Mining_Machine: Folder for the Laptop part of the minig machine.
+                          
                           bullshit.py: The running program for the first game rules' version.
+                          
                           bullshit2.py: The running program for the lastest game rules' version.
                                         It is connected with UART to listen to the command
                                         and usb to control the mining machine
@@ -33,6 +36,7 @@
                           port.py: Testing the UART port communication and mining machine communication.
                           Other files: Helper codes for function testing.
 3. Mining_Machine: Folder for mining machine control.
+                   
                    main.c: The code for controling machine movement,
                            including signal receiving from laptop, motor control and sending backing signal to laptop for successful action.
                    Other files: for motor, PID and device control.
